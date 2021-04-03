@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#logoimg{
+    image-resolution: 500dpi;
+}
+
+.navba-custom{
+    font-size: large;
+    background-color: rgb(0, 238, 255);
+    
+}
+
+#navcontent-custom{
+    padding: 20px;
+    
+}
+body{
+    /* background-color: lightgray; */
+  
+    margin: 0;
+      width: 100%;
+      height: 100vh;
+    background: linear-gradient(-45deg, #f05006, #dce008, rgb(0, 255, 234), #0697f8);
+      background-size: 400% 400%;
+      -webkit-animation: gradientBG 10s ease infinite;
+              animation: gradientBG 10s ease infinite; 
+  }
+  
+   @-webkit-keyframes gradientBG {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  @keyframes gradientBG {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+#covid-custom{
+    color: purple;
+    border: 2px solid purple;
+    padding: 10px;
+}
+
+#covid-custom:hover{
+  color: white;
+  background-color: green;
+  transition: ease-in-out;
+  transition-duration: 1s;
+}
+.infoClass
+{
+    background: rgba(0, 238, 255, 0.9);
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    margin: auto;
+    margin-top: 800px;
+    /* top: 1850px; */
+    width: 85%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+}
+
+.infoClass p
+{
+    font-size: 21px;
+}
+
+.infoClass:hover{
+    opacity: 0.9;
+}
+#footcst{
+    background-color: grey;
+    color: white;
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    
+  }
+
+
